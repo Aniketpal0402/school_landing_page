@@ -1,0 +1,244 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.nav{
+    /* border: 2px solid blue; */
+    display: flex;
+    /* background-color:darkblue; */
+    height: 70px;
+    box-shadow: 3px 5px 10px black;
+    border: 2px solid black;
+   
+}
+.nav a{
+    margin: 22px;
+    text-shadow: 3px 3px 10px rgb(255, 183, 255);
+   
+}
+
+.links{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.links a{
+    padding-right: 20px;
+    font-size: 25px;
+    color:black;
+    text-decoration: none;
+    /* font-family:; */
+    font-weight: bolder;
+    /* text-shadow:2px 2px 10px black; */
+    /* text-shadow: 3px 3px 10px rgb(255, 183, 255); */
+   
+}
+.logo{
+    border: 2px solid black;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-image: url(https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2020/01/9-Best-School-Logos-and-How-to-Make-Your-Own-for-Free-image1.png);
+    background-position: center;
+    background-size: cover;
+}
+.nav input{
+    margin: 19px 0px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color:rgb(184, 31, 184);
+    text-decoration-thickness:6px;
+}
+.body{
+    background-image: url(https://wallpapers.com/images/featured/school-btqdsrc8abryyar1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main{
+    width: 100%;
+    height:calc(100vh - 68px);
+    display: flex;
+}
+.content
+{
+    margin-left: 20px;
+    width: 50%;
+}
+.registration{
+    padding: 70px;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+.main h1{
+    margin-top: 120px;
+    font-size: 40px;
+    margin-left: 20px;
+    text-shadow: 3px 3px 10px rgb(255, 183, 255);
+}
+.main p{
+    color:rgb(255, 183, 255);
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight:800;
+    font-style: oblique;
+    margin-left: 20px;
+    text-shadow: 3px 3px 10px black;
+}
+
+.main button{
+    width: 150px;
+    font-size: larger;
+    margin-left: 190px;
+    margin-top: 10px;
+    background-color: black;
+    color: rgb(255, 183, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ background-image: url(https://siddharthpetro.com/wp-content/uploads/2019/09/insurance-footer-background.png);
+ height: 250px;
+
+
+}
+.contact{
+   width: 50%;
+   color: white;
+
+
+}
+.text{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 50px;
+ padding: 20px 20px;
+}
+.footer p{
+
+ font-size: 20px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ padding: 0px 20px;
+}
+.about{
+ width: 50%;
+ color: white;
+}
+/*  */
+.footer2{
+height: 250px;
+background-color: black;
+}
+
+
+.footer2{
+border: 2px solid rgb(0, 0, 0);
+}
+.last{
+display: flex;
+margin-top: 80px;
+align-items: center;
+justify-content: space-evenly;
+}
+.last2 ul{
+display: flex;
+}
+.last img{
+height: 60px;
+align-self: center;
+
+}
+.last ul li{
+text-decoration: none;
+padding: 0px 20px;
+list-style: none;
+}
+.last a{
+color: white;
+text-decoration: none;
+font-size: 16px;
+font-family: monospace;
+}
+hr{
+width: 70%;
+margin-top: 20px;
+margin-left: 150px;
+}
+form {
+    width: 380px;
+    max-width: 600px;
+    /* background-color: rgb(243, 149, 243); */
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 26px 20px black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 10px rgb(255, 183, 255);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: black;
+    text-shadow: 2px 2px 10px rgb(255, 183, 255);
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#btn1 {
+    background-color: black;
+    color: rgb(255, 183, 255);
+    padding: 10px 15px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group > div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .form-group {
+        flex-direction: column;
+    }
+
+    .form-group > div {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
